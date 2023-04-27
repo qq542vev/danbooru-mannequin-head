@@ -39,11 +39,11 @@
 
 [![make1.jpg](images/thumbnails/make1.jpg)](images/make1.jpg)
 
-パーツAの切り込み口 c, d, e にパーツB、パーツC、パーツDの切り込み口を挿入していきます。
+パーツAの切り込み口 c, d, e にパーツB、パーツC、パーツDの切り込み口にそれぞれ挿入していきます。
 
 [![make2.jpg](images/thumbnails/make2.jpg)](images/make2.jpg)
 
-上から見た時に四角形が出来るように、4個のパーツAの上部の切り込み口にパーツEの切り込み口aを挿入していきます。残りの4個のパーツAの上部の切り込み口にパーツFの切り込み口bを挿入していきます。この時パーツEとパーツFの切込み口 e, f もそれぞれ挿入していきます。
+上から見た時に四角形が出来るように、4個のパーツAの上部の切り込み口にパーツEの切り込み口 a を挿入していきます。残りの4個のパーツAの上部の切り込み口にパーツFの切り込み口 b を挿入していきます。この時パーツEとパーツFの切込み口 e, f もそれぞれ挿入していきます。
 
 [![make3.jpg](images/thumbnails/make3.jpg)](images/make3.jpg) [![make4.jpg](images/thumbnails/make4.jpg)](images/make4.jpg)
 

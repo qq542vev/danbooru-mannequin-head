@@ -27,7 +27,7 @@
 
 完成品の大きさは高さ420mm、横幅337m、奥行き337mmです。重量は約222gです。
 
-ここでは型紙用のテンプレートファイルの配布と作り方を解説しています。型紙用のファイルは[LibreOffice Draw](https://www.libreoffice.org/discover/draw/)を用いて作成されています。
+ここでは型紙用のテンプレートファイルの配布と作り方を解説しています。型紙用のファイルは [LibreOffice Draw](https://www.libreoffice.org/discover/draw/) を用いて作成されています。
 
 # 作成方法
 

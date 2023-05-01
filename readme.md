@@ -6,8 +6,8 @@
 
 		id - 963e0ad7-3c93-4a3a-a10a-cacdc29cfc15
 		author - <qq542vev at https://purl.org/meta/me/>
-		version - 1.0.0
-		date - 2023-04-27
+		version - 1.0.1
+		date - 2023-05-01
 		since - 2023-04-27
 		copyright - Copyright (C) 2023-2023 qq542vev. Some rights reserved.
 		license - <CC-BY at https://creativecommons.org/licenses/by/4.0/>
@@ -23,7 +23,7 @@
 
 [![product1.jpg](images/thumbnails/product1.jpg)](images/product1.jpg) [![product2.jpg](images/thumbnails/product2.jpg)](images/product2.jpg)
 
-段ボールマネキンヘッドは段ボールで作成が可能なマネキンの頭部です。耐荷重が高めた設計となっているため、帽子などの計量なものは勿論、人形着ぐるみのマスクなども置くことも可能です。
+段ボールマネキンヘッドは段ボールで作成が可能なマネキンの頭部です。耐荷重が高めた設計となっているため、帽子などの軽量なものは勿論、人形着ぐるみのマスクなども置くことも可能です。
 
 完成品の大きさは高さ420mm、横幅337m、奥行き337mmです。重量は約222gです。
 

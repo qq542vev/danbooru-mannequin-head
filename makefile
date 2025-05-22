@@ -8,7 +8,7 @@
 ##
 ##   id - d47127c3-3d08-4f7c-942a-2c1757cf77ec
 ##   author - <qq542vev at https://purl.org/meta/me/>
-##   version - 1.0.0
+##   version - 1.1.0
 ##   date - 2024-06-06
 ##   since - 2025-05-22
 ##   copyright - Copyright (C) 2024-2025 qq542vev. Some rights reserved.
@@ -25,7 +25,7 @@
 
 .POSIX:
 
-.PHONY: all clean help version
+.PHONY: all clean rebuild help version
 
 .SILENT: help version
 
@@ -33,6 +33,7 @@
 # =====
 
 VERSION = 1.0.0
+SOFFICE = soffice
 
 # Build
 # =====
@@ -40,13 +41,15 @@ VERSION = 1.0.0
 all: template.pdf
 
 template.pdf: template.fodg
-	soffice --headless --convert-to pdf '$(<)'
+	$(SOFFICE) --headless --convert-to pdf '$(<)'
 
 # Clean
 # =====
 
 clean:
 	rm -rf -- template.pdf
+
+rebuild: clean all
 
 # Message
 # =======
@@ -57,9 +60,13 @@ help:
 	echo 'USAGE:'
 	echo '  make [OPTION...] [TARGET...]'
 	echo
+        echo 'MACRO:'
+        echo '  SOFFICE sofficeのパス。'
+	echo
 	echo 'TARGET:'
 	echo '  all     全てのファイルを作成する。'
 	echo '  clean   作成したファイルを削除する。'
+	echo '  rebuild cleanの後にallを実行する。'
 	echo '  help    このヘルプを表示して終了する。'
 	echo '  version バージョン情報を表示して終了する。'
 

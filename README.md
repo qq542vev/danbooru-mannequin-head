@@ -1,22 +1,21 @@
-<!-- Document: readme.md
+<!-- Document: README.md
 
-	All Sailor Moon Memories のマニュアル
+ダンボールマネキンヘッドのマニュアル。
 
-	Metadata:
+Metadata:
 
-		id - 963e0ad7-3c93-4a3a-a10a-cacdc29cfc15
-		author - <qq542vev at https://purl.org/meta/me/>
-		version - 1.0.1
-		date - 2023-05-01
-		since - 2023-04-27
-		copyright - Copyright (C) 2023-2023 qq542vev. Some rights reserved.
-		license - <CC-BY at https://creativecommons.org/licenses/by/4.0/>
-		package - danbooru-mannequin-head
+	id - 963e0ad7-3c93-4a3a-a10a-cacdc29cfc15
+	author - <qq542vev at https://purl.org/meta/me/>
+	version - 1.0.1
+	date - 2023-05-01
+	since - 2025-05-22
+	copyright - Copyright (C) 2023-2025 qq542vev. Some rights reserved.
+	license - <CC-BY-4.0 at https://creativecommons.org/licenses/by/4.0/>
+	package - danbooru-mannequin-head
 
-	See Also:
-
-		* <Project homepage at https://github.com/qq542vev/danbooru-mannequin-head>
-		* <Bag report at https://github.com/qq542vev/danbooru-mannequin-head/issues>
+See Also:
+	* <Project homepage at https://github.com/qq542vev/danbooru-mannequin-head>
+	* <Bag report at https://github.com/qq542vev/danbooru-mannequin-head/issues>
 -->
 
 # 段ボールマネキンヘッド

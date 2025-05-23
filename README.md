@@ -6,9 +6,9 @@ Metadata:
 
 	id - 963e0ad7-3c93-4a3a-a10a-cacdc29cfc15
 	author - <qq542vev at https://purl.org/meta/me/>
-	version - 1.0.1
-	date - 2023-05-01
-	since - 2025-05-22
+	version - 1.0.2
+	created - 2023-04-27
+	modified - 2025-05-23
 	copyright - Copyright (C) 2023-2025 qq542vev. Some rights reserved.
 	license - <CC-BY-4.0 at https://creativecommons.org/licenses/by/4.0/>
 	package - danbooru-mannequin-head
@@ -30,7 +30,7 @@ See Also:
 
 # 作成方法
 
-[Aフルート(5mm 厚)](https://www.bestcarton.com/jp/guide/danball/a-flute.html)の段ボールを用意します。新品の段ボール板に限らず、段ボール箱などの折り目のついた段ボール板でも作成が可能です。可能な限り、中芯が潰れていない段ボールを使用しましょう。
+[Aフルート(5mm厚)](https://www.bestcarton.com/jp/guide/danball/a-flute.html)の段ボールを用意します。新品の段ボール板に限らず、段ボール箱などの折り目のついた段ボール板でも作成が可能です。可能な限り、中芯が潰れていない段ボールを使用しましょう。
 
 [GitHub Release](https://github.com/qq542vev/danbooru-mannequin-head/releases/latest) から template.pdf をダウンロードして、A3の印刷用紙に印刷します。レーザープリンターでは縁が欠けますが、縮小・拡大などはせず、原寸大のまま印刷します。
 

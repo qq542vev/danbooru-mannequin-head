@@ -8,12 +8,12 @@
 ##
 ##   id - d47127c3-3d08-4f7c-942a-2c1757cf77ec
 ##   author - <qq542vev at https://purl.org/meta/me/>
-##   version - 1.2.0
-##   date - 2024-06-06
-##   since - 2025-05-22
+##   version - 1.3.0
+##   created - 2024-06-06
+##   modified - 2025-05-23
 ##   copyright - Copyright (C) 2024-2025 qq542vev. Some rights reserved.
 ##   license - <CC-BY-4.0 at https://creativecommons.org/licenses/by/4.0/>
-##   depends - soffice, xdg-open
+##   depends - curl, soffice, xdg-open
 ##
 ## See Also:
 ##
@@ -32,7 +32,7 @@
 # Macro
 # =====
 
-VERSION = 1.2.0
+VERSION = 1.3.0
 SOFFICE = soffice
 
 # Build
@@ -42,6 +42,9 @@ all: template.pdf
 
 template.pdf: template.fodg
 	$(SOFFICE) --headless --convert-to pdf '$(<)'
+
+LICENSE.txt:
+	curl -sS -f -L -o '$(@)' 'https://creativecommons.org/licenses/by/4.0/legalcode.txt'
 
 # Run
 # ===

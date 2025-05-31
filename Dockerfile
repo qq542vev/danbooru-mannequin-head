@@ -12,9 +12,9 @@
 ##
 ##   id - b2c6a487-88e6-4479-905e-dd07e8762407
 ##   author - <qq542vev at https://purl.org/meta/me/>
-##   version - 1.0.1
+##   version - 1.0.2
 ##   created - 2025-05-23
-##   modified - 2025-05-26
+##   modified - 2025-05-31
 ##   copyright - Copyright (C) 2025-2025 qq542vev. All rights reserved.
 ##   license - <GNU GPLv3 at https://www.gnu.org/licenses/gpl-3.0.txt>
 ##
@@ -28,7 +28,7 @@ FROM ${BASE}
 
 ARG BASE
 ARG TITLE="ダンボールマネキンヘッド"
-ARG VERSION="1.0.1"
+ARG VERSION="1.0.2"
 ARG WORKDIR="/work"
 
 LABEL org.opencontainers.image.title="${TITLE}"
@@ -43,7 +43,6 @@ ENV LANG="C.UTF-8"
 ENV TZ="Asia/Tokyo"
 
 WORKDIR ${WORKDIR}
-COPY . ${WORKDIR}
 
 RUN \
 	apt-get update && \

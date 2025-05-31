@@ -1,0 +1,8 @@
+#!/usr/bin/docker-compose -f
+
+services:
+  make:
+    build: .
+    entrypoint: "make"
+    volumes:
+      - .:/work

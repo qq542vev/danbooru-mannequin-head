@@ -1,5 +1,6 @@
 #!/usr/bin/docker-compose -f
 
+name: danbooru-mannequin
 services:
   make:
     build: .

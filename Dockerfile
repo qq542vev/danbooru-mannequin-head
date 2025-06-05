@@ -12,9 +12,9 @@
 ##
 ##   id - b2c6a487-88e6-4479-905e-dd07e8762407
 ##   author - <qq542vev at https://purl.org/meta/me/>
-##   version - 1.0.2
+##   version - 1.0.3
 ##   created - 2025-05-23
-##   modified - 2025-05-31
+##   modified - 2025-06-05
 ##   copyright - Copyright (C) 2025-2025 qq542vev. All rights reserved.
 ##   license - <GNU GPLv3 at https://www.gnu.org/licenses/gpl-3.0.txt>
 ##
@@ -28,7 +28,7 @@ FROM ${BASE}
 
 ARG BASE
 ARG TITLE="ダンボールマネキンヘッド"
-ARG VERSION="1.0.2"
+ARG VERSION="1.0.3"
 ARG WORKDIR="/work"
 
 LABEL org.opencontainers.image.title="${TITLE}"
@@ -39,16 +39,15 @@ LABEL org.opencontainers.image.url="https://github.com/qq542vev/danbooru-mannequ
 LABEL org.opencontainers.image.license="GPL-3.0-only"
 LABEL org.opencontainers.image.base.name="${BASE}"
 
-ENV LANG="C.UTF-8"
-ENV TZ="Asia/Tokyo"
+ENV LANG="C"
+ENV LC_ALL="C"
+ENV TZ="UTC0"
 
 WORKDIR ${WORKDIR}
 
 RUN \
 	apt-get update && \
 	apt-get install -y --no-install-recommends \
-		fonts-ipafont-gothic make libreoffice-draw && \
+		fonts-dejavu-core fonts-ipafont-gothic make libreoffice-draw && \
 	apt-get clean && \
 	rm -rf /var/lib/apt-get/lists/*
-
-CMD ["make"]
